@@ -240,10 +240,6 @@ namespace HRMS
             }
             else
             {
-                reload(FileControls.getArrayEmp());
-            }
-            else
-            {
 
                 reload(FileControls.getArrayEmp());
 

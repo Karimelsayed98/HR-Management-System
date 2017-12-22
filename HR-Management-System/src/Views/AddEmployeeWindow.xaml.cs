@@ -42,14 +42,13 @@ namespace HRMS
         {
            if (DepartmentBox.SelectedIndex != 0)
            {
-                bool done;
                 Department deps = FileControls.getDepartment(DepartmentBox.Text);
                 string id = IdBox.Text;
                 string name = nameBox.Text;
                 name=name.ToLower();
                 string date = DateBox.Text;
                 string dep = deps.departmentId;
-                done = FileControls.addEmployee(id, name, date, dep);
+                bool done = FileControls.addEmployee(id, name, date, dep);
 
                 if (!done)
                 {
