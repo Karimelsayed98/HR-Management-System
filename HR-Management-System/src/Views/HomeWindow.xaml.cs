@@ -238,7 +238,14 @@ namespace HRMS
                         }
 
                     }
+                    
                 }
+            }
+            else
+            {
+
+                reload(FileControls.getArrayEmp());
+
             }
         }
     }
