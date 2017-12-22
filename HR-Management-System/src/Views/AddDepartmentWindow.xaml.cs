@@ -42,9 +42,5 @@ namespace HRMS
            
         }
 
-        private void DepNameBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
     }
 }

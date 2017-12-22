@@ -9,7 +9,7 @@
         Title="employee" Height="268.537" Width="455.854" MaxHeight="268.537" MaxWidth="455.854" >
     <Grid Background="#FFF9F7F7">
         <Label x:Name="label" Content="Employee ID :" HorizontalAlignment="Left" Margin="78,51,0,0" VerticalAlignment="Top"/>
-        <TextBox BorderThickness="0" MaxLength="5" x:Name="IdBox" HorizontalAlignment="Left" Height="25" Margin="83,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129" Background="White"/>
+        <TextBox BorderThickness="0" MaxLength="5" x:Name="IdBox" HorizontalAlignment="Left" Height="25" Margin="83,73,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129" Background="White" Padding="0"/>
         <Label Foreground="#15ce19" x:Name="label1" Content="Add Employee" Margin="153,1,144.6,0" VerticalAlignment="Top" Background="{x:Null}" FontSize="20" FontWeight="Bold" FontStyle="Italic" HorizontalContentAlignment="Center"/>
         <Label x:Name="label2" Content="Employee Name :" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="237,50,0,0"/>
         <TextBox BorderThickness="0" x:Name="nameBox" MaxLength="20" HorizontalAlignment="Left" Height="25" Margin="243,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129" Background="White"/>

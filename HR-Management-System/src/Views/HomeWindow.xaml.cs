@@ -159,7 +159,6 @@ namespace HRMS
             editPage.Show();
         }
 
-        // Implementation Needs to be changed for a better looking code
         private void DepcomboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             Search.Clear();
@@ -200,7 +199,6 @@ namespace HRMS
             }
         }
 
-        // Implementation Needs to be changed for a better looking code
         private void OnSearch(object sender, KeyEventArgs e)
         {
             List<Employee> tmpEmployeesList = new List<Employee>();
