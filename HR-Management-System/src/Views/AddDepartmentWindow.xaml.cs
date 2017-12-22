@@ -39,6 +39,8 @@ namespace HRMS
                 HomeWindow.reload(FileControls.getArrayEmp());
                 this.Close();
             }
+           
         }
+
     }
 }
